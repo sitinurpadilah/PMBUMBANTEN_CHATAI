@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMB Online - Pendaftaran Mahasiswa Baru</title>
+   <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <header>
+        <div class="logo">PMB KAMPUS <span>2027/2028</span></div>
+        <nav>
+            <a href="/#home">Home</a>
+            <details class="nav-dropdown">
+                <summary>Info PMB</summary>
+                <div class="nav-dropdown-menu">
+                    <a href="/program-studi.html">Program Studi</a>
+                    <a href="/biaya.html">Biaya Kuliah</a>
+                    <a href="/#jadwal">Jadwal Pendaftaran</a>
+                    <a href="/#alur">Alur Pendaftaran</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvB9U4E2m_LwR2J-Ted97Fp2P2p7KSf-PXfUWiD4v58hj1pQ/viewform" target="_blank" rel="noopener noreferrer">Beasiswa KIP</a>
+                </div>
+            </details>
+            <a href="">Daftar</a>
+            <a href="/kontak.html">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Bagian Utama (Hero) -->
+    <section class="hero" id="home" aria-label="Informasi Penerimaan Mahasiswa Baru">
+        <article class="hero-slide hero-slide-campus is-active" aria-hidden="false">
+            <div class="hero-content">
+                <div class="hero-badge">Universitas Muhammadiyah Banten</div>
+                <h1>Wujudkan Masa Depan Akademikmu Bersama Kami</h1>
+                <p>Penerimaan Mahasiswa Baru Tahun Akademik 2027/2028. Dapatkan informasi jurusan, biaya kuliah, dan beasiswa dengan mudah.</p>
+                <a href="#alur" class="btn-primary">Lihat Alur Pendaftaran</a>
+            </div>
+        </article>
+        <article class="hero-slide hero-slide-students" aria-hidden="true">
+            <div class="hero-content">
+                <div class="hero-badge">Kenali Kehidupan Kampus</div>
+                <h1>Mulai Langkahmu Bersama Kami</h1>
+                <p>Temukan lingkungan belajar yang suportif dan tumbuh bersama komunitas kampus kami.</p>
+                <a href="/program-studi.html" class="btn-primary">Jelajahi Program Studi</a>
+            </div>
+        </article>
+        <button class="hero-arrow hero-prev" type="button" aria-label="Slide sebelumnya">&lsaquo;</button>
+        <button class="hero-arrow hero-next" type="button" aria-label="Slide berikutnya">&rsaquo;</button>
+        <div class="hero-indicators" aria-label="Pilih slide">
+            <button class="hero-indicator is-active" type="button" aria-label="Tampilkan slide 1" aria-current="true"></button>
+            <button class="hero-indicator" type="button" aria-label="Tampilkan slide 2" aria-current="false"></button>
+        </div>
+    </section>
+
+    <section class="campus-intro" id="tentang">
+        <img class="campus-photo" src="/img/class2.jpeg" alt="Suasana kampus Universitas Muhammadiyah Banten">
+        <div class="campus-intro-copy">
+            <span class="campus-eyebrow">Informasi PMB</span>
+            <h2>Kenali Universitas Muhammadiyah Banten</h2>
+            <p>Selamat datang di halaman Penerimaan Mahasiswa Baru Universitas Muhammadiyah Banten. Di sini kamu bisa mengenal fakultas dan program studi, melihat jadwal pendaftaran, serta mempelajari langkah-langkah untuk memulai proses pendaftaran.</p>
+            <p>Jelajahi informasi yang tersedia dan pilih program studi yang sesuai dengan minat serta rencana masa depanmu.</p>
+            <div class="campus-intro-actions">
+                <a href="#fakultas" class="btn-primary">Jelajahi Fakultas</a>
+                <a href="#jadwal" class="campus-text-link">Lihat Jadwal Pendaftaran</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pilihan Fakultas -->
+    <section id="fakultas">
+        <div class="section-title">
+            <h2>Pilihan Fakultas</h2>
+            <p>Kenali fakultas dan program studi yang tersedia.</p>
+        </div>
+        <div class="grid-3">
+            <article class="card faculty-card">
+                <h3>Fakultas Teknik dan Ilmu Komputer</h3>
+                <p>Program studi di bidang teknologi informasi dan teknik.</p>
+                <a href="/program-studi.html#faculty-computer" class="btn-primary">Lihat Program Studi</a>
+            </article>
+            <article class="card faculty-card">
+                <h3>Fakultas Pendidikan dan Ilmu Bahasa</h3>
+                <p>Program studi di bidang pendidikan dan bahasa.</p>
+                <a href="/program-studi.html#faculty-education" class="btn-primary">Lihat Program Studi</a>
+            </article>
+            <article class="card faculty-card">
+                <h3>Fakultas Kesehatan</h3>
+                <p>Program studi di bidang kesehatan.</p>
+                <a href="/program-studi.html#faculty-health" class="btn-primary">Lihat Program Studi</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Jadwal Gelombang -->
+    <section id="jadwal" class="schedule-section">
+        <div class="section-title">
+            <h2>Jadwal Gelombang Pendaftaran</h2>
+            <p>Catat tanggal penting penerimaan mahasiswa baru</p>
+        </div>
+        <div class="grid-3">
+            <div class="card">
+                <span class="card-tag">Gelombang 1 (Aktif)</span>
+                <h3>Januari – Maret 2026</h3>
+                <p>Potongan biaya pendaftaran 50% dan bebas tes tulis bagi jalur prestasi rapor.</p>
+            </div>
+            <div class="card">
+                <span class="card-tag">Gelombang 2</span>
+                <h3>April – Juni 2026</h3>
+                <p>Jalur reguler tes berbasis komputer (CBT) dan seleksi berkas akademik.</p>
+            </div>
+            <div class="card">
+                <span class="card-tag">Gelombang 3</span>
+                <h3>Juli – Agustus 2026</h3>
+                <p>Kesempatan terakhir pendaftaran sebelum masa orientasi mahasiswa baru dimulai.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="registration-links" aria-labelledby="registration-links-title">
+        <div class="section-title">
+            <span class="campus-eyebrow">Link Pendaftaran</span>
+            <h2 id="registration-links-title">Pendaftaran Mahasiswa</h2>
+            <p>Pilih jalur pendaftaran yang sesuai untuk melihat informasi selanjutnya.</p>
+        </div>
+        <div class="registration-link-grid">
+            <a class="registration-link-card" href="#" aria-label="Link Pendaftaran Reguler">
+                <svg class="registration-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.07 0l-3 3A5 5 0 0 0 11 21.07l1.71-1.71"></path>
+                </svg>
+                <h3>Link Pendaftaran Reguler</h3>
+            </a>
+            <a class="registration-link-card" href="https://docs.google.com/forms/d/e/1FAIpQLSfvB9U4E2m_LwR2J-Ted97Fp2P2p7KSf-PXfUWiD4v58hj1pQ/viewform" target="_blank" rel="noopener noreferrer" aria-label="Link Pendaftaran KIP">
+                <svg class="registration-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.07 0l-3 3A5 5 0 0 0 11 21.07l1.71-1.71"></path>
+                </svg>
+                <h3>Link Pendaftaran KIP</h3>
+            </a>
+            <a class="registration-link-card" href="https://docs.google.com/forms/d/e/1FAIpQLSe-Gk-juJtPc1PFFSml5qbx-7kGss93QFmC3W4_ShhBrENZZQ/viewform" aria-label="Link Pendaftaran RPL">
+                <svg class="registration-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.07 0l-3 3A5 5 0 0 0 11 21.07l1.71-1.71"></path>
+                </svg>
+                <h3>Link Pendaftaran RPL</h3>
+            </a>
+        </div>
+        <p class="registration-links-closing">Mari raih masa depan gemilang bersama Universitas Muhammadiyah Banten.</p>
+    </section>
+
+    <!-- Alur Pendaftaran -->
+    <section id="alur" class="registration-section">
+        <div class="alur-box">
+            <div class="section-title alur-title">
+                <h2>Alur Pendaftaran Online</h2>
+                <p>Ikuti 4 langkah mudah berikut untuk menjadi bagian dari kampus kami</p>
+            </div>
+            <div class="alur-steps">
+                <div class="step-item">
+                    <div class="step-num">1</div>
+                    <h4>Buat Akun</h4>
+                    <p class="step-description">Isi formulir registrasi awal menggunakan email dan nomor WhatsApp aktif.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">2</div>
+                    <h4>Lengkapi Berkas</h4>
+                    <p class="step-description">Unggah scan KTP/Kartu Pelajar, ijazah/rapor, dan pas foto terbaru.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">3</div>
+                    <h4>Seleksi & Tes</h4>
+                    <p class="step-description">Ikuti ujian seleksi online sesuai jadwal gelombang yang dipilih.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">4</div>
+                    <h4>Daftar Ulang</h4>
+                    <p class="step-description">Lakukan pembayaran daftar ulang dan dapatkan Nomor Induk Mahasiswa (NIM).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-columns">
+            <section class="footer-column">
+                <h2>Tentang Kami</h2>
+                <p>Panitia Penerimaan Mahasiswa Baru (PMB) Kampus membantu calon mahasiswa mengenal program studi dan proses pendaftaran.</p>
+            </section>
+            <section class="footer-column">
+                <h2>Informasi PMB</h2>
+                <p>Tahun Akademik 2027/2028</p>
+                <p>Pendaftaran Gelombang 1 telah dibuka.</p>
+            </section>
+            <section class="footer-column">
+                <h2>Bantuan</h2>
+                <p>Tanyakan seputar pendaftaran, jadwal, dan program studi kepada asisten virtual PMB.</p>
+                <button class="footer-chat-link" id="footerChatButton" type="button">Tanya Asisten PMB</button>
+            </section>
+            <nav class="footer-column footer-links" aria-label="Tautan footer">
+                <h2>Tautan</h2>
+                <a href="/program-studi.html">Program Studi</a>
+                <a href="/biaya.html">Biaya Kuliah</a>
+                <a href="#jadwal">Jadwal Pendaftaran</a>
+                <a href="#alur">Alur Pendaftaran</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Panitia Penerimaan Mahasiswa Baru (PMB) Kampus.
+        </div>
+    </footer>
+
+    <!-- Tombol & Widget Chat AI -->
+    <button class="chat-toggle-btn" id="chatToggleButton">
+        💬 Tanya Asisten PMB
+    </button>
+
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <span>Asisten Virtual PMB</span>
+            <button class="close-chat" id="closeChatButton">&times;</button>
+        </div>
+        <div class="chat-box" id="chatBox">
+            <div class="message bot-message">Assalamu'alaikum! Saya Asisten PMB Universitas Muhammadiyah Banten. Saya bisa membantu informasi fakultas, program studi, jadwal, alur pendaftaran, KIP Kuliah, dan RPL. Ada yang ingin ditanyakan?</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Tulis pertanyaanmu...">
+            <button id="sendButton">Kirim</button>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
